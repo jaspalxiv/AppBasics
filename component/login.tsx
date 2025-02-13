@@ -15,8 +15,11 @@ const Login : React.FC<LoginIn> = ({logged, setLogged}) => {
     const router = useRouter();
     //router.navigate("./welcome") //TODO REMOVE THIS TEST PURSPOSE ONLY
 
-    const [username, setUsername] = useState('johnDoe');
-    const [password, setPassword] = useState('PassworD@123');
+    //const [username, setUsername] = useState('johnDoe');
+    //const [password, setPassword] = useState('PassworD@123');
+
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
 
     const validateInputs = () => {
         const usernameRegex = /^.{5,}$/;
