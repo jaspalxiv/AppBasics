@@ -14,7 +14,10 @@ const ImageWithLink = () => {
       />
 
       <Link url={"https://www.calgary.ca/home.html"}/>
-  
+
+      <Text>
+      The Calgary Stampede, known as the "Greatest Outdoor Show on Earth," attracts over a million visitors annually and features one of the world's largest rodeos!
+      </Text>
     </View>
   );
 };

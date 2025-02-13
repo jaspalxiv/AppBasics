@@ -16,7 +16,8 @@ const ImageWithLink = () => {
       />
 
       <Link url={"https://www.edmonton.ca"} />
-
+      <Text>
+        Edmonton is home to West Edmonton Mall, which was once the largest mall in the world and still holds the title for the largest in North America, featuring a waterpark, amusement park, and even an indoor lake with real boats!       </Text>
     </View>
   );
 };
